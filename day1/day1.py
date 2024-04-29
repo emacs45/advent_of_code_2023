@@ -13,14 +13,18 @@ def getCalib(content):
 result = 0
 
 with open ('./day1/input.txt', 'r') as f:
-    for line in f: #schneidet \n ab 
+    for line in f: 
         result += getCalib(line)
 
 print(result)
 
 #Part 2
 result = 0
-digits = {'zero': 'zero0zero', 'one': 'one1one', 'two': 'two2two', 'three': 'three3three', 'four': 'four4four', 'five': 'five5five', 'six': 'six6six', 'seven': 'seven7seven', 'eight': 'eight8eight', 'nine': 'nine9nine'}
+digits = {'zero': 'zero0zero', 'one': 'one1one', 'two': 'two2two', 
+          'three': 'three3three', 'four': 'four4four', 'five': 'five5five', 
+          'six': 'six6six', 'seven': 'seven7seven', 'eight': 'eight8eight', 
+          'nine': 'nine9nine'
+        }
 
 with open ('./day1/input.txt', 'r') as file:
     for line in file:

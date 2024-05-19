@@ -10,7 +10,7 @@ Advent of Code is an annual event that provides a series of programming puzzles 
 
 Each day's challenge will have its own directory, structured as follows:
 
-/
+.
 ├── day1/
 │ ├── day1.py 
 │ ├── input.txt
@@ -19,6 +19,7 @@ Each day's challenge will have its own directory, structured as follows:
 │ ├── day2.py 
 │ ├── input.txt
 │ └── sample.txt
+
 ...
 
 
@@ -39,7 +40,7 @@ In addition to solving the puzzles, I am also using this repository as an opport
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/advent_of_code_2023.git
+    git clone https://github.com/emacs45/advent_of_code_2023.git
     ```
 2. Navigate to the day's directory:
     ```bash

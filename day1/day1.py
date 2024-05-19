@@ -12,7 +12,7 @@ def getCalib(content):
 #Part 1
 result = 0
 
-with open ('/home/fox/projects/advent_of_code_2023/day1/input.txt', 'r') as f:
+with open ('input.txt', 'r') as f:
     for line in f: 
         result += getCalib(line)
 
@@ -26,7 +26,7 @@ digits = {'zero': 'zero0zero', 'one': 'one1one', 'two': 'two2two',
           'nine': 'nine9nine'
         }
 
-with open ('/home/fox/projects/advent_of_code_2023/day1/input.txt', 'r') as file:
+with open ('input.txt', 'r') as file:
     for line in file:
         for key, value in digits.items():
             line = line.replace(key, value)

@@ -10,7 +10,8 @@ Advent of Code is an annual event that provides a series of programming puzzles 
 
 Each day's challenge will have its own directory, structured as follows:
 
-.
+```
+/
 ├── day1/
 │ ├── day1.py 
 │ ├── input.txt
@@ -21,7 +22,7 @@ Each day's challenge will have its own directory, structured as follows:
 │ └── sample.txt
 
 ...
-
+```
 
 - `day[1-n].py`: My solution to the challenge.
 - `input.txt`: The input data for the challenge.
